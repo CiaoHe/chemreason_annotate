@@ -24,9 +24,9 @@ pip install rdkit gradio
 运行标注界面：
 
 ```bash
-python annotate.py --data_path PATH_TO_YOUR_DATA --output_dir PATH_TO_OUTPUT_DIR
+python mol_optim_anno.py --data_path PATH_TO_YOUR_DATA --output_dir PATH_TO_OUTPUT_DIR
 # 例如
-python annotate.py --data_path gsk_hard_cot.json --output_dir annotated_data
+python mol_optim_anno.py --data_path gsk_hard_cot.json --output_dir annotated_data
 
 # 然后根据terminal 显示在端口打开标注界面，例如： http://127.0.0.1:7860/
 ```
